@@ -1,5 +1,7 @@
 # Deep Learning Mastery: Build Your AI Foundation
 
+![Pallence AI](PallenceAI-Final.png)
+
 Welcome to the course! This README file provides clear instructions on how to download the course material and run the code for all sections. You can complete the course using two methods: Google Colab (recommended) or a local Anaconda environment. Follow the instructions below to get started.
 
 ## Course Material
