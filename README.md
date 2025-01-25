@@ -21,29 +21,43 @@ All the course materials, including code and notebooks, can be found in the foll
 Google Colab allows you to run the course notebooks directly in your browser without installing anything locally. This is the recommended approach for the best experience.
 
 #### Steps to Run on Google Colab:
-1. Open the GitHub repository and navigate to the notebook you want to run.
-2. Click on the notebook file (.ipynb) and copy its URL.
-3. Open [Google Colab](https://colab.research.google.com/).
-4. Select **File > Open Notebook**, then click on the **GitHub** tab.
-5. Paste the URL of the notebook or search for the repository.
-6. Once the notebook is loaded, follow the instructions in the notebook to install the required packages.
+1. **Upload the Course Folder to Google Drive**:
+   - Extract the ZIP file you downloaded from GitHub.
+   - Open [Google Drive](https://drive.google.com/) and create a new folder (e.g., `Deep_Learning_Course`).
+   - Upload the extracted course folder into this new folder in Google Drive. Ensure the folder structure remains intact.
 
-#### Required Libraries:
-At the beginning of each notebook, run the following command to install the necessary libraries:
+2. **Open the Notebook from Google Drive**:
+   - Navigate to your Google Drive using a web browser.
+   - Locate the specific notebook you want to run (e.g., `Section4/notebook.ipynb`).
+   - Right-click on the notebook file and select **Open with > Google Colaboratory**. This will directly open the notebook in Google Colab.
 
-```python
-!pip install tensorflow numpy pandas matplotlib
-```
+3. **Follow the Setup Instructions in the Notebook**:
+   - Each notebook contains commented-out code cells to set up the environment in Colab. Uncomment and run these cells as instructed:
 
-- **tensorflow** (tested with version 2.13.0 and above)
-- **numpy** (tested with version 1.23.0 and above)
-- **pandas** (tested with version 1.4.0 and above)
-- **matplotlib** (tested with version 3.5.0 and above)
-- **notebook** (use version below 7.0.0 if necessary)
+     **Mount Google Drive**:
+     ```python
+     # from google.colab import drive
+     # drive.mount('/content/drive')
+     ```
+
+     **Set the Working Directory**:
+     ```python
+     # import os
+     # os.chdir('/content/drive/My Drive/Deep_Learning_Course/Section4')  # Adjust the path as needed
+     # print("Current Directory:", os.getcwd())
+     ```
+
+     **Install Required Libraries**:
+     ```python
+     # !pip install tensorflow numpy pandas matplotlib
+     ```
+
+4. **Run the Notebook**:
+   - After completing the setup steps, run the notebook cells sequentially. The folder structure and paths (e.g., `./images` or `./data`) will work seamlessly.
 
 #### Notes:
-- Ensure you run the setup cells in each notebook before running the code.
-- If you encounter any errors, restart the Colab runtime and re-install the packages as needed.
+- Ensure the Google Drive folder structure matches the original course materials.
+- Restart the Colab runtime and re-run the setup cells if you encounter any errors.
 
 ### 2. Using a Local Environment (Anaconda)
 If you prefer to run the course locally, follow these steps to set up an environment using Anaconda.
