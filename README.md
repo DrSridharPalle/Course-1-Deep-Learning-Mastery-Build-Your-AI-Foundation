@@ -23,8 +23,8 @@ Google Colab allows you to run the course notebooks directly in your browser wit
 #### Steps to Run on Google Colab:
 1. **Upload the Course Folder to Google Drive**:
    - Extract the ZIP file you downloaded from GitHub.
-   - Open [Google Drive](https://drive.google.com/) and create a new folder (e.g., `Deep_Learning_Course`).
-   - Upload the extracted course folder into this new folder in Google Drive. Ensure the folder structure remains intact.
+   - Open google drive on your machine and copy the unzipped course folder here.
+   - Ensure the folder structure remains intact.
 
 2. **Open the Notebook from Google Drive**:
    - Navigate to your Google Drive using a web browser.
