@@ -28,7 +28,7 @@ Google Colab allows you to run the course notebooks directly in your browser wit
 
 2. **Open the Notebook from Google Drive**:
    - Navigate to your Google Drive using a web browser.
-   - Locate the specific notebook you want to run (e.g., `Section4/notebook.ipynb`).
+   - Locate the specific notebook you want to run.
    - Right-click on the notebook file and select **Open with > Google Colaboratory**. This will directly open the notebook in Google Colab.
 
 3. **Follow the Setup Instructions in the Notebook**:
